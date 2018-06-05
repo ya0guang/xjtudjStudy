@@ -3,6 +3,7 @@
 import requests
 import time
 
+# for test
 courseID = 1252
 ccID = 753
 classID = 55
