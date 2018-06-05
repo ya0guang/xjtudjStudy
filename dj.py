@@ -3,11 +3,13 @@
 import requests
 import time
 
+# fill in this pls!
+sessionID = ""
+
 # for test
 courseID = 1252
 ccID = 753
 classID = 55
-sessionID = ""
 
 #courseList: (courseID, ccID)
 courseList = {(753, 627), (754, 627), (755,627), (756, 627), (1252, 753), \
