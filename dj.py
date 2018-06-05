@@ -1,3 +1,5 @@
+# author: ya0guang
+
 import requests
 import time
 
@@ -30,3 +32,5 @@ for course in courseList:
         r = requests.post(url,data=postData, cookies=cookie, headers=headers)
         time.sleep(0.1)
         print(course, r.text)
+
+print(“welcome to xjtu 0w1 cybersecurity club”)
